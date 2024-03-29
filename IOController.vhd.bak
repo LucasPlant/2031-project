@@ -1,0 +1,37 @@
+-- IOController.vhd (hobby servo pulse generator)
+-- This starting point generates a pulse between 600 us and something much longer than 2.4 ms.
+
+library IEEE;
+library lpm;
+
+use IEEE.std_logic_1164.all;
+use IEEE.std_logic_unsigned.all;
+use lpm.lpm_components.all;
+
+entity IOController is
+    port(
+        CS          : in  std_logic;
+        IO_WRITE    : in  std_logic;
+        IO_DATA     : in  std_logic_vector(15 downto 0);
+        CLOCK       : in  std_logic;
+        RESETN      : in  std_logic;
+        NUM_OUT       : out std_logic_vector(15 downto 0)
+    );
+end IOController;
+
+architecture a of IOController is
+
+
+begin
+
+    -- Latch data on rising edge of CS
+    process (RESETN, CS) begin
+        if RESETN = '0' then
+            NUM_OUT <= x"0000";
+        elsif IO_WRITE = '1' and rising_edge(CS) then
+            NUM_OUT <= IO_DATA;
+        end if;
+    end process;
+
+
+end a;

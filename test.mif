@@ -1,0 +1,44 @@
+WIDTH=16;
+DEPTH=2048;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+0000: 9000; -- IN Switches
+0001: 101E; -- Store Pattern
+0002: 081F; -- Load Bit0
+0003: 201E; -- sub pattern
+0004: 4012; -- jzero Switch1
+0005: B800; -- Loadi 0
+0006: 0820; -- Load Bit1
+0007: 201E; -- sub pattern
+0008: 4015; -- jzero Switch2
+0009: B800; -- Loadi 0
+000A: 0821; -- Load Bit8
+000B: 201E; -- sub pattern
+000C: 4018; -- jzero Switch8
+000D: B800; -- Loadi 0
+000E: 0822; -- Load Bit9
+000F: 201E; -- sub pattern
+0010: 401B; -- jzero Switch9
+0011: 2800; -- Jump Start
+0012: B800; -- Loadi 0
+0013: 9850; -- Out HSPG
+0014: 2800; -- Jump Start
+0015: B8B4; -- Loadi 180
+0016: 9850; -- Out HSPG
+0017: 2800; -- Jump Start
+0018: B8DC; -- Loadi 220
+0019: 9850; -- Out HSPG
+001A: 2800; -- Jump Start
+001B: B855; -- Loadi 85
+001C: 9850; -- Out HSPG
+001D: 2800; -- Jump Start
+001E: 0000; -- Pattern: DW 0
+001F: 0001; -- Bit0:      DW &B0000000001
+0020: 0002; -- Bit1:    DW &B0000000010
+0021: 0100; -- Bit8:      DW &B0100000000
+0022: 0200; -- Bit9:      DW &B1000000000
+[0023..07FF] : 0000; -- [empty memory]
+END;
