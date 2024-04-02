@@ -29,7 +29,7 @@ ARCHITECTURE a OF clk_div IS
 	CONSTANT clk_freq    : INTEGER := 12000000;
 	CONSTANT half_freq   : INTEGER := clk_freq/2;
 	
-	SIGNAL count_1MHz       : INTEGER RANGE 0 TO clk_freq/1000000;--added
+	SIGNAL count_1MHz       : INTEGER RANGE 0 TO half_freq/1000000;--added
 	SIGNAL count_100kHz     : INTEGER RANGE 0 TO half_freq/100000; 
 	SIGNAL count_10kHz      : INTEGER RANGE 0 TO half_freq/10000; 
 	SIGNAL count_100Hz      : INTEGER RANGE 0 TO half_freq/100;
@@ -60,7 +60,7 @@ BEGIN
 
 	
 	-- 1MHz Clock Division Logic
-        IF count_1MHz < (clk_freq/1000000-1) THEN
+        IF count_1MHz < (half_freq/1000000-1) THEN
             count_1MHz <= count_1MHz + 1;
         ELSE
             count_1MHz <= 0;

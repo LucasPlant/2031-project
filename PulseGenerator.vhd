@@ -31,7 +31,7 @@ begin
             count <= count + 1;
 
             -- When the counter reaches the full desired period, start the period over.
-            if count = x"2710" then  -- 20 ms has elapsed
+            if count = x"4E20" then  -- 20 ms has elapsed
                 -- Reset the counter and set the output high.
                 count <= x"0000";
                 PULSE <= '1';
