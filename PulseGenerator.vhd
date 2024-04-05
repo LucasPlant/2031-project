@@ -9,7 +9,7 @@ use IEEE.numeric_std.all;
 
 entity PulseGenerator is
     port(
-        IO_DATA     : in  std_logic_vector(15 downto 0);
+        MICROSECONDS     : in  std_logic_vector(15 downto 0);
         CLOCK       : in  std_logic;
         RESETN      : in  std_logic;
         PULSE       : out std_logic
@@ -20,6 +20,7 @@ architecture a of PulseGenerator is
 
 --    signal inputLength : std_logic_vector(15 downto 0);  -- desired pulse length from IO_Bus
     signal count   : std_logic_vector(15 downto 0);  -- internal counter
+	 signal MS_LATCHEd : std_logic_vector(15 downto 0);
 
 begin
     process (RESETN, CLOCK)
@@ -35,10 +36,11 @@ begin
                 -- Reset the counter and set the output high.
                 count <= x"0000";
                 PULSE <= '1';
+					 MS_LATCHED <= MICROSECONDS;
 
             -- Within the period, when the counter reaches the "command" value, set the output low.
             -- This will make larger command values produce longer pulses.
-            elsif count = IO_DATA then
+            elsif count = MS_LATCHED then
                 PULSE <= '0';
             end if;
         end if;
