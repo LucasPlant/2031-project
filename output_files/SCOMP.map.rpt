@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SCOMP
-Fri Apr 05 14:11:13 2024
+Fri Apr 05 15:24:45 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -29,7 +29,7 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
  21. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_2
  22. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_3
  23. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_4
- 24. Source assignments for SCOMP:inst|altsyncram:altsyncram_component|altsyncram_v724:auto_generated
+ 24. Source assignments for SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated
  25. Source assignments for sld_signaltap:auto_signaltap_0
  26. Parameter Settings for User Entity Instance: PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i
  27. Parameter Settings for User Entity Instance: SCOMP:inst|altsyncram:altsyncram_component
@@ -70,13 +70,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Apr 05 14:11:13 2024       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 05 15:24:45 2024       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; SCOMP                                       ;
 ; Top-level Entity Name           ; SCOMP_System                                ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 845                                         ;
+; Total registers                 ; 807                                         ;
 ; Total pins                      ; 69                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 45,056                                      ;
@@ -214,8 +214,8 @@ https://fpgasoftware.intel.com/eula.
 ; PLL_main/PLL_main_0002.v                                           ; yes             ; User Verilog HDL File                        ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PLL_main/PLL_main_0002.v                                           ; PLL_main    ;
 ; SafePulse.vhd                                                      ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/SafePulse.vhd                                                      ;             ;
 ; PulseGenerator.vhd                                                 ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PulseGenerator.vhd                                                 ;             ;
-; PCU.vhd                                                            ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd                                                            ;             ;
 ; PUCTester.vhd                                                      ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PUCTester.vhd                                                      ;             ;
+; PCUtest.vhd                                                        ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd                                                        ;             ;
 ; altera_pll.v                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_pll.v                                                                                                   ;             ;
 ; altera_pll_dps_lcell_comb.v                                        ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_pll_dps_lcell_comb.v                                                                                    ;             ;
 ; altera_cyclonev_pll.v                                              ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_cyclonev_pll.v                                                                                          ;             ;
@@ -228,8 +228,8 @@ https://fpgasoftware.intel.com/eula.
 ; altrom.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altrom.inc                                                                                                     ;             ;
 ; altram.inc                                                         ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altram.inc                                                                                                     ;             ;
 ; altdpram.inc                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altdpram.inc                                                                                                   ;             ;
-; db/altsyncram_v724.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/altsyncram_v724.tdf                                             ;             ;
-; DEBUG.mif                                                          ; yes             ; Auto-Found Memory Initialization File        ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/DEBUG.mif                                                          ;             ;
+; db/altsyncram_a724.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/altsyncram_a724.tdf                                             ;             ;
+; test2.mif                                                          ; yes             ; Auto-Found Memory Initialization File        ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/test2.mif                                                          ;             ;
 ; lpm_clshift.tdf                                                    ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_clshift.tdf                                                                                                ;             ;
 ; db/lpm_clshift_fuc.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/lpm_clshift_fuc.tdf                                             ;             ;
 ; lpm_bustri.tdf                                                     ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/lpm_bustri.tdf                                                                                                 ;             ;
@@ -290,16 +290,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 643                      ;
+; Estimate of Logic utilization (ALMs needed) ; 649                      ;
 ;                                             ;                          ;
-; Combinational ALUT usage for logic          ; 883                      ;
+; Combinational ALUT usage for logic          ; 903                      ;
 ;     -- 7 input functions                    ; 4                        ;
-;     -- 6 input functions                    ; 175                      ;
-;     -- 5 input functions                    ; 202                      ;
-;     -- 4 input functions                    ; 113                      ;
-;     -- <=3 input functions                  ; 389                      ;
+;     -- 6 input functions                    ; 163                      ;
+;     -- 5 input functions                    ; 219                      ;
+;     -- 4 input functions                    ; 119                      ;
+;     -- <=3 input functions                  ; 398                      ;
 ;                                             ;                          ;
-; Dedicated logic registers                   ; 845                      ;
+; Dedicated logic registers                   ; 807                      ;
 ;                                             ;                          ;
 ; I/O pins                                    ; 69                       ;
 ; Total MLAB memory bits                      ; 0                        ;
@@ -312,8 +312,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                          ;
 ; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                             ; 341                      ;
-; Total fan-out                               ; 7070                     ;
-; Average fan-out                             ; 3.72                     ;
+; Total fan-out                               ; 6980                     ;
+; Average fan-out                             ; 3.71                     ;
 +---------------------------------------------+--------------------------+
 
 
@@ -322,7 +322,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                      ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |SCOMP_System                                                                                                                           ; 883 (17)            ; 845 (0)                   ; 45056             ; 0          ; 69   ; 0            ; |SCOMP_System                                                                                                                                                                                                                                                                                                                                            ; SCOMP_System                      ; work         ;
+; |SCOMP_System                                                                                                                           ; 903 (17)            ; 807 (0)                   ; 45056             ; 0          ; 69   ; 0            ; |SCOMP_System                                                                                                                                                                                                                                                                                                                                            ; SCOMP_System                      ; work         ;
 ;    |DIG_IN:inst7|                                                                                                                       ; 0 (0)               ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|DIG_IN:inst7                                                                                                                                                                                                                                                                                                                               ; DIG_IN                            ; work         ;
 ;    |DIG_OUT:inst21|                                                                                                                     ; 0 (0)               ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|DIG_OUT:inst21                                                                                                                                                                                                                                                                                                                             ; DIG_OUT                           ; work         ;
 ;    |HEX_DISP_6:inst9|                                                                                                                   ; 44 (2)              ; 24 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|HEX_DISP_6:inst9                                                                                                                                                                                                                                                                                                                           ; HEX_DISP_6                        ; work         ;
@@ -333,7 +333,7 @@ https://fpgasoftware.intel.com/eula.
 ;       |HEX_DISP:inst5|                                                                                                                  ; 7 (7)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|HEX_DISP_6:inst9|HEX_DISP:inst5                                                                                                                                                                                                                                                                                                            ; HEX_DISP                          ; work         ;
 ;       |HEX_DISP:inst6|                                                                                                                  ; 7 (7)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|HEX_DISP_6:inst9|HEX_DISP:inst6                                                                                                                                                                                                                                                                                                            ; HEX_DISP                          ; work         ;
 ;    |IO_DECODER:inst3|                                                                                                                   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|IO_DECODER:inst3                                                                                                                                                                                                                                                                                                                           ; IO_DECODER                        ; work         ;
-;    |PCU:inst19|                                                                                                                         ; 118 (118)           ; 38 (38)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PCU:inst19                                                                                                                                                                                                                                                                                                                                 ; PCU                               ; work         ;
+;    |PCUtrail:inst24|                                                                                                                    ; 138 (138)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PCUtrail:inst24                                                                                                                                                                                                                                                                                                                            ; PCUtrail                          ; work         ;
 ;    |PLL_main:inst1|                                                                                                                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1                                                                                                                                                                                                                                                                                                                             ; PLL_main                          ; pll_main     ;
 ;       |PLL_main_0002:pll_main_inst|                                                                                                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst                                                                                                                                                                                                                                                                                                 ; PLL_main_0002                     ; PLL_main     ;
 ;          |altera_pll:altera_pll_i|                                                                                                      ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i                                                                                                                                                                                                                                                                         ; altera_pll                        ; work         ;
@@ -342,7 +342,7 @@ https://fpgasoftware.intel.com/eula.
 ;    |PulseGenerator:inst13|                                                                                                              ; 28 (28)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PulseGenerator:inst13                                                                                                                                                                                                                                                                                                                      ; PulseGenerator                    ; work         ;
 ;    |SCOMP:inst|                                                                                                                         ; 251 (208)           ; 179 (179)                 ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst                                                                                                                                                                                                                                                                                                                                 ; SCOMP                             ; work         ;
 ;       |altsyncram:altsyncram_component|                                                                                                 ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                                 ; altsyncram                        ; work         ;
-;          |altsyncram_v724:auto_generated|                                                                                               ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|altsyncram:altsyncram_component|altsyncram_v724:auto_generated                                                                                                                                                                                                                                                                  ; altsyncram_v724                   ; work         ;
+;          |altsyncram_a724:auto_generated|                                                                                               ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated                                                                                                                                                                                                                                                                  ; altsyncram_a724                   ; work         ;
 ;       |lpm_clshift:shifter|                                                                                                             ; 43 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|lpm_clshift:shifter                                                                                                                                                                                                                                                                                                             ; lpm_clshift                       ; work         ;
 ;          |lpm_clshift_fuc:auto_generated|                                                                                               ; 43 (43)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|lpm_clshift:shifter|lpm_clshift_fuc:auto_generated                                                                                                                                                                                                                                                                              ; lpm_clshift_fuc                   ; work         ;
 ;    |SafePulse:inst12|                                                                                                                   ; 28 (28)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SafePulse:inst12                                                                                                                                                                                                                                                                                                                           ; SafePulse                         ; work         ;
@@ -400,7 +400,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+-----------+
 ; Name                                                                                                                                                                                                  ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF       ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+-----------+
-; SCOMP:inst|altsyncram:altsyncram_component|altsyncram_v724:auto_generated|ALTSYNCRAM                                                                                                                  ; AUTO ; Single Port      ; 2048         ; 16           ; --           ; --           ; 32768 ; DEBUG.mif ;
+; SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated|ALTSYNCRAM                                                                                                                  ; AUTO ; Single Port      ; 2048         ; 16           ; --           ; --           ; 32768 ; test2.mif ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_ke84:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 4096         ; 3            ; 4096         ; 3            ; 12288 ; None      ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+-----------+
 
@@ -472,29 +472,65 @@ Encoding Type:  One-Hot
 +------------------------------------+------------------------------------+------------------------------------+------------------------------------+------------------------------------+------------------------------------+-----------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                      ;
-+-----------------------------------------------------+---------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal       ; Free of Timing Hazards ;
-+-----------------------------------------------------+---------------------------+------------------------+
-; TIMER:inst4|IO_COUNT[15]                            ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[14]                            ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[13]                            ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[12]                            ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[11]                            ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[10]                            ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[9]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[8]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[7]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[6]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[5]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[4]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[3]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[2]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[1]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; TIMER:inst4|IO_COUNT[0]                             ; IO_DECODER:inst3|TIMER_EN ; yes                    ;
-; Number of user-specified and inferred latches = 16  ;                           ;                        ;
-+-----------------------------------------------------+---------------------------+------------------------+
++---------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                           ;
++-----------------------------------------------------+--------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal            ; Free of Timing Hazards ;
++-----------------------------------------------------+--------------------------------+------------------------+
+; TIMER:inst4|IO_COUNT[15]                            ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[14]                            ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[13]                            ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[12]                            ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[11]                            ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[10]                            ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[9]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[8]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[7]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[6]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[5]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[4]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[3]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[2]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[1]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; TIMER:inst4|IO_COUNT[0]                             ; IO_DECODER:inst3|TIMER_EN      ; yes                    ;
+; PCUtrail:inst24|current_deg[0]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[15]                     ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[1]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[2]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[3]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[4]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[5]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[6]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[7]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[8]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[9]                      ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[10]                     ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[11]                     ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[12]                     ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[13]                     ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|current_deg[14]                     ; PCUtrail:inst24|current_deg[0] ; yes                    ;
+; PCUtrail:inst24|counter[19]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[18]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[15]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[14]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[17]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[16]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[13]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[12]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[11]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[10]                         ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[9]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[8]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[7]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[6]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[5]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[4]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[3]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[2]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[1]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; PCUtrail:inst24|counter[0]                          ; PCUtrail:inst24|Equal0         ; yes                    ;
+; Number of user-specified and inferred latches = 52  ;                                ;                        ;
++-----------------------------------------------------+--------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -511,13 +547,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; SCOMP:inst|IIE[0..3]                                                                                                                ; Lost fanout                                 ;
 ; SCOMP:inst|int_ack[0..3]                                                                                                            ; Lost fanout                                 ;
 ; PulseGenerator:inst13|MS_LATCHEd[0]                                                                                                 ; Stuck at GND due to stuck port data_in      ;
-; PCU:inst19|target[0,2,6,8..14]                                                                                                      ; Merged with PCU:inst19|target[15]           ;
-; PCU:inst19|target[4,5]                                                                                                              ; Merged with PCU:inst19|target[7]            ;
-; PCU:inst19|target[1]                                                                                                                ; Merged with PCU:inst19|target[3]            ;
 ; SCOMP:inst|AC_saved[0..15]                                                                                                          ; Stuck at GND due to stuck port clock_enable ;
 ; SCOMP:inst|PC_saved[0..10]                                                                                                          ; Stuck at GND due to stuck port clock_enable ;
 ; SCOMP:inst|GIE                                                                                                                      ; Lost fanout                                 ;
-; PCU:inst19|target[15]                                                                                                               ; Stuck at GND due to stuck port data_in      ;
 ; SCOMP:inst|state.ex_nop                                                                                                             ; Lost fanout                                 ;
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state~2                ; Lost fanout                                 ;
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state~3                ; Lost fanout                                 ;
@@ -529,7 +561,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state.PHASE_DONE_LOW_2 ; Stuck at GND due to stuck port clock        ;
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state.PHASE_DONE_LOW_3 ; Stuck at GND due to stuck port clock        ;
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state.PHASE_DONE_LOW_4 ; Stuck at GND due to stuck port clock        ;
-; Total Number of Removed Registers = 76                                                                                              ;                                             ;
+; Total Number of Removed Registers = 62                                                                                              ;                                             ;
 +-------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------+
 
 
@@ -566,12 +598,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 845   ;
-; Number of registers using Synchronous Clear  ; 198   ;
+; Total registers                              ; 807   ;
+; Number of registers using Synchronous Clear  ; 167   ;
 ; Number of registers using Synchronous Load   ; 254   ;
-; Number of registers using Asynchronous Clear ; 316   ;
+; Number of registers using Asynchronous Clear ; 280   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 564   ;
+; Number of registers using Clock Enable       ; 533   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -606,11 +638,9 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output               ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |SCOMP_System|SafePulse:inst12|count[15] ;
-; 3:1                ; 99 bits   ; 198 LEs       ; 0 LEs                ; 198 LEs                ; Yes        ; |SCOMP_System|SCOMP:inst|PC_stack[2][7]  ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |SCOMP_System|PCU:inst19|current_deg[3]  ;
-; 4:1                ; 11 bits   ; 22 LEs        ; 11 LEs               ; 11 LEs                 ; Yes        ; |SCOMP_System|PCU:inst19|current_deg[0]  ;
-; 12:1               ; 11 bits   ; 88 LEs        ; 22 LEs               ; 66 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|PC[7]           ;
-; 13:1               ; 16 bits   ; 128 LEs       ; 112 LEs              ; 16 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|AC[10]          ;
+; 3:1                ; 99 bits   ; 198 LEs       ; 0 LEs                ; 198 LEs                ; Yes        ; |SCOMP_System|SCOMP:inst|PC_stack[7][5]  ;
+; 12:1               ; 11 bits   ; 88 LEs        ; 22 LEs               ; 66 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|PC[4]           ;
+; 13:1               ; 16 bits   ; 128 LEs       ; 112 LEs              ; 16 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|AC[13]          ;
 ; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |SCOMP_System|IO_DATA[1]                 ;
 ; 13:1               ; 16 bits   ; 128 LEs       ; 128 LEs              ; 0 LEs                  ; No         ; |SCOMP_System|SCOMP:inst|Add1            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
@@ -697,7 +727,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 
 
 +--------------------------------------------------------------------------------------------------+
-; Source assignments for SCOMP:inst|altsyncram:altsyncram_component|altsyncram_v724:auto_generated ;
+; Source assignments for SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated ;
 +---------------------------------+--------------------+------+------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                 ;
 +---------------------------------+--------------------+------+------------------------------------+
@@ -1004,7 +1034,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                     ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                     ;
-; INIT_FILE                          ; DEBUG.mif            ; Untyped                     ;
+; INIT_FILE                          ; test2.mif            ; Untyped                     ;
 ; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                     ;
 ; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer              ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                     ;
@@ -1017,7 +1047,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                     ;
 ; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer              ;
 ; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                     ;
-; CBXI_PARAMETER                     ; altsyncram_v724      ; Untyped                     ;
+; CBXI_PARAMETER                     ; altsyncram_a724      ; Untyped                     ;
 +------------------------------------+----------------------+-----------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1166,36 +1196,35 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------------+-----------------------+
 ; Type                        ; Count                 ;
 +-----------------------------+-----------------------+
-; arriav_ff                   ; 354                   ;
-;     CLR                     ; 74                    ;
+; arriav_ff                   ; 316                   ;
+;     CLR                     ; 69                    ;
 ;     CLR SCLR                ; 16                    ;
 ;     ENA                     ; 57                    ;
 ;     ENA CLR                 ; 10                    ;
-;     ENA CLR SCLR            ; 31                    ;
 ;     ENA SCLR                ; 11                    ;
 ;     ENA SLD                 ; 115                   ;
 ;     SCLR                    ; 19                    ;
 ;     SLD                     ; 2                     ;
-;     plain                   ; 19                    ;
-; arriav_lcell_comb           ; 560                   ;
-;     arith                   ; 145                   ;
-;         1 data inputs       ; 128                   ;
-;         2 data inputs       ; 1                     ;
+;     plain                   ; 17                    ;
+; arriav_lcell_comb           ; 580                   ;
+;     arith                   ; 129                   ;
+;         1 data inputs       ; 98                    ;
+;         2 data inputs       ; 15                    ;
 ;         5 data inputs       ; 16                    ;
 ;     extend                  ; 3                     ;
 ;         7 data inputs       ; 3                     ;
-;     normal                  ; 399                   ;
+;     normal                  ; 435                   ;
 ;         0 data inputs       ; 1                     ;
 ;         1 data inputs       ; 8                     ;
-;         2 data inputs       ; 22                    ;
-;         3 data inputs       ; 63                    ;
-;         4 data inputs       ; 74                    ;
-;         5 data inputs       ; 117                   ;
-;         6 data inputs       ; 114                   ;
+;         2 data inputs       ; 29                    ;
+;         3 data inputs       ; 85                    ;
+;         4 data inputs       ; 76                    ;
+;         5 data inputs       ; 134                   ;
+;         6 data inputs       ; 102                   ;
 ;     shared                  ; 13                    ;
-;         2 data inputs       ; 1                     ;
-;         3 data inputs       ; 10                    ;
-;         4 data inputs       ; 2                     ;
+;         2 data inputs       ; 5                     ;
+;         3 data inputs       ; 2                     ;
+;         4 data inputs       ; 6                     ;
 ; boundary_port               ; 70                    ;
 ; cyclonev_fractional_pll     ; 1                     ;
 ; cyclonev_pll_output_counter ; 1                     ;
@@ -1204,7 +1233,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block          ; 16                    ;
 ;                             ;                       ;
 ; Max LUT depth               ; 5.50                  ;
-; Average LUT depth           ; 2.63                  ;
+; Average LUT depth           ; 2.74                  ;
 +-----------------------------+-----------------------+
 
 
@@ -1270,7 +1299,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Fri Apr 05 14:10:51 2024
+    Info: Processing started: Fri Apr 05 15:24:25 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SCOMP -c SCOMP
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file hex_disp.vhd
@@ -1324,6 +1353,15 @@ Info (12021): Found 2 design units, including 1 entities, in source file pcu.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file puctester.vhd
     Info (12022): Found design unit 1: PCUTester-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PUCTester.vhd Line: 22
     Info (12023): Found entity 1: PCUTester File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PUCTester.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file output_files/pcu1.vhd
+    Info (12022): Found design unit 1: PCU1-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/output_files/PCU1.vhd Line: 25
+    Info (12023): Found entity 1: PCU1 File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/output_files/PCU1.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file pcu1.vhd
+    Info (12022): Found design unit 1: PCUtest-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU1.vhd Line: 25
+    Info (12023): Found entity 1: PCUtest File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU1.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file pcutest.vhd
+    Info (12022): Found design unit 1: PCUtrail-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 25
+    Info (12023): Found entity 1: PCUtrail File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 13
 Info (12127): Elaborating entity "SCOMP_System" for the top level hierarchy
 Info (12128): Elaborating entity "SafePulse" for hierarchy "SafePulse:inst12"
 Info (12128): Elaborating entity "PulseGenerator" for hierarchy "PulseGenerator:inst13"
@@ -1566,9 +1604,61 @@ Warning (10034): Output port "lvdsclk" at altera_cyclonev_pll.v(642) has no driv
 Info (12131): Elaborated megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll", which is child of megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_pll.v Line: 2224
 Info (12128): Elaborating entity "altera_cyclonev_pll_base" for hierarchy "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_cyclonev_pll.v Line: 1153
 Info (12131): Elaborated megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0", which is child of megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_cyclonev_pll.v Line: 1153
-Info (12128): Elaborating entity "PCU" for hierarchy "PCU:inst19"
-Warning (10036): Verilog HDL or VHDL warning at PCU.vhd(38): object "corrected" assigned a value but never read File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 38
-Info (12128): Elaborating entity "PCUTester" for hierarchy "PCUTester:inst17"
+Info (12128): Elaborating entity "PCUtrail" for hierarchy "PCUtrail:inst24"
+Warning (10036): Verilog HDL or VHDL warning at PCUtest.vhd(35): object "Mode_Enum" assigned a value but never read File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 35
+Warning (10036): Verilog HDL or VHDL warning at PCUtest.vhd(38): object "corrected" assigned a value but never read File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 38
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(47): signal "current_deg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 47
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(47): signal "target" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 47
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(49): signal "target" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 49
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(50): signal "current_deg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 50
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(50): signal "target" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 50
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(52): signal "counter" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 52
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(52): signal "cycle_per_deg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 52
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(53): signal "counter" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 53
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(56): signal "current_deg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 56
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(60): signal "counter" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 60
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(60): signal "cycle_per_deg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 60
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(61): signal "counter" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 61
+Warning (10492): VHDL Process Statement warning at PCUtest.vhd(64): signal "current_deg" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 64
+Warning (10631): VHDL Process Statement warning at PCUtest.vhd(46): inferring latch(es) for signal or variable "current_deg", which holds its previous value in one or more paths through the process File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (10631): VHDL Process Statement warning at PCUtest.vhd(46): inferring latch(es) for signal or variable "counter", which holds its previous value in one or more paths through the process File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[0]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[1]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[2]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[3]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[4]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[5]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[6]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[7]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[8]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[9]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[10]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[11]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[12]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[13]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[14]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[15]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[16]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[17]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[18]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "counter[19]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[0]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[1]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[2]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[3]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[4]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[5]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[6]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[7]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[8]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[9]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[10]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[11]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[12]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[13]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[14]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (10041): Inferred latch for "current_deg[15]" at PCUtest.vhd(46) File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Info (12128): Elaborating entity "PCUTester" for hierarchy "PCUTester:inst23"
 Info (12128): Elaborating entity "HEX_DISP_6" for hierarchy "HEX_DISP_6:inst9"
 Info (12128): Elaborating entity "HEX_DISP" for hierarchy "HEX_DISP_6:inst9|HEX_DISP:inst1"
 Info (12128): Elaborating entity "IO_DECODER" for hierarchy "IO_DECODER:inst3"
@@ -1596,7 +1686,7 @@ Info (12133): Instantiated megafunction "SCOMP:inst|altsyncram:altsyncram_compon
     Info (12134): Parameter "indata_aclr_a" = "UNUSED"
     Info (12134): Parameter "indata_aclr_b" = "NONE"
     Info (12134): Parameter "indata_reg_b" = "CLOCK1"
-    Info (12134): Parameter "init_file" = "DEBUG.mif"
+    Info (12134): Parameter "init_file" = "test2.mif"
     Info (12134): Parameter "init_file_layout" = "PORT_A"
     Info (12134): Parameter "maximum_depth" = "0"
     Info (12134): Parameter "numwords_a" = "2048"
@@ -1626,9 +1716,9 @@ Info (12133): Instantiated megafunction "SCOMP:inst|altsyncram:altsyncram_compon
     Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK1"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_v724.tdf
-    Info (12023): Found entity 1: altsyncram_v724 File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/altsyncram_v724.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_v724" for hierarchy "SCOMP:inst|altsyncram:altsyncram_component|altsyncram_v724:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_a724.tdf
+    Info (12023): Found entity 1: altsyncram_a724 File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/altsyncram_a724.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_a724" for hierarchy "SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Info (12128): Elaborating entity "LPM_CLSHIFT" for hierarchy "SCOMP:inst|LPM_CLSHIFT:shifter" File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/SCOMP.vhd Line: 97
 Info (12130): Elaborated megafunction instantiation "SCOMP:inst|LPM_CLSHIFT:shifter" File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/SCOMP.vhd Line: 97
 Info (12133): Instantiated megafunction "SCOMP:inst|LPM_CLSHIFT:shifter" with the following parameter: File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/SCOMP.vhd Line: 97
@@ -1689,7 +1779,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_99c File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/cmpr_99c.tdf Line: 23
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2024.04.05.14:11:03 Progress: Loading sldfd7bd03d/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2024.04.05.15:24:35 Progress: Loading sldfd7bd03d/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1737,6 +1827,38 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13048): Converted tri-state node "IO_DATA[2]" into a selector File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/HEX_DISP.vhd Line: 25
     Warning (13048): Converted tri-state node "IO_DATA[1]" into a selector File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/HEX_DISP.vhd Line: 25
     Warning (13048): Converted tri-state node "IO_DATA[0]" into a selector File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/HEX_DISP.vhd Line: 25
+Warning (13012): Latch PCUtrail:inst24|current_deg[0] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[15] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[1] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[2] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[3] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[4] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[5] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[6] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[7] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[8] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[9] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[10] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[11] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[12] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[13] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+Warning (13012): Latch PCUtrail:inst24|current_deg[14] has unsafe behavior File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal PCUtrail:inst24|current_deg[0] File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 46
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "TPs[3]" is stuck at GND
     Warning (13410): Pin "TPs[2]" is stuck at GND
@@ -1745,15 +1867,15 @@ Info (17049): 15 registers lost all their fanouts during netlist optimizations.
 Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 34 of its 39 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 5 missing sources or connections.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 17 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1467 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1488 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 58 output pins
-    Info (21061): Implemented 1370 logic cells
+    Info (21061): Implemented 1391 logic cells
     Info (21064): Implemented 19 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 40 warnings
-    Info: Peak virtual memory: 4958 megabytes
-    Info: Processing ended: Fri Apr 05 14:11:13 2024
-    Info: Elapsed time: 00:00:22
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 88 warnings
+    Info: Peak virtual memory: 4953 megabytes
+    Info: Processing ended: Fri Apr 05 15:24:45 2024
+    Info: Elapsed time: 00:00:20
     Info: Total CPU time (on all processors): 00:00:18
 
 
