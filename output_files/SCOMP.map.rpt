@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SCOMP
-Tue Apr 02 15:45:04 2024
+Fri Apr 05 13:06:30 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -71,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 02 15:45:04 2024       ;
+; Analysis & Synthesis Status     ; Successful - Fri Apr 05 13:06:30 2024       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; SCOMP                                       ;
 ; Top-level Entity Name           ; SCOMP_System                                ;
@@ -1271,7 +1271,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Apr 02 15:44:34 2024
+    Info: Processing started: Fri Apr 05 13:05:55 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SCOMP -c SCOMP
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file hex_disp.vhd
@@ -1319,6 +1319,9 @@ Info (12021): Found 2 design units, including 1 entities, in source file pulsege
 Info (12021): Found 2 design units, including 1 entities, in source file iocontroller.vhd
     Info (12022): Found design unit 1: IOController-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/IOController.vhd Line: 22
     Info (12023): Found entity 1: IOController File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/IOController.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file pcu.vhd
+    Info (12022): Found design unit 1: PCU-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 25
+    Info (12023): Found entity 1: PCU File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 13
 Info (12127): Elaborating entity "SCOMP_System" for the top level hierarchy
 Info (12128): Elaborating entity "SafePulse" for hierarchy "SafePulse:inst12"
 Info (12128): Elaborating entity "PulseGenerator" for hierarchy "PulseGenerator:inst13"
@@ -1683,7 +1686,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_99c File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/cmpr_99c.tdf Line: 23
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2024.04.02.15:44:53 Progress: Loading sldfd7bd03d/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2024.04.05.13:06:13 Progress: Loading sldfd7bd03d/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1746,9 +1749,9 @@ Info (21057): Implemented 1383 device resources after synthesis - the final reso
     Info (21064): Implemented 19 RAM segments
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 40 warnings
-    Info: Peak virtual memory: 4959 megabytes
-    Info: Processing ended: Tue Apr 02 15:45:04 2024
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 4964 megabytes
+    Info: Processing ended: Fri Apr 05 13:06:30 2024
+    Info: Elapsed time: 00:00:35
+    Info: Total CPU time (on all processors): 00:00:27
 
 
