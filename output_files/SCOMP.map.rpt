@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SCOMP
-Tue Apr 09 16:41:53 2024
+Tue Apr 09 16:59:38 2024
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -14,36 +14,37 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
-  9. Analysis & Synthesis IP Cores Summary
- 10. State Machine - |SCOMP_System|SCOMP:inst|state
- 11. State Machine - |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state
- 12. User-Specified and Inferred Latches
- 13. Registers Removed During Synthesis
- 14. Removed Registers Triggering Further Register Optimizations
- 15. General Register Statistics
- 16. Inverted Register Statistics
- 17. Multiplexer Restructuring Statistics (Restructuring Performed)
- 18. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i
- 19. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_0
- 20. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_1
- 21. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_2
- 22. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_3
- 23. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_4
- 24. Source assignments for SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated
- 25. Source assignments for sld_signaltap:auto_signaltap_0
- 26. Parameter Settings for User Entity Instance: PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i
- 27. Parameter Settings for User Entity Instance: SCOMP:inst|altsyncram:altsyncram_component
- 28. Parameter Settings for User Entity Instance: SCOMP:inst|LPM_CLSHIFT:shifter
- 29. Parameter Settings for User Entity Instance: SCOMP:inst|LPM_BUSTRI:io_bus
- 30. Parameter Settings for User Entity Instance: TIMER:inst4|LPM_BUSTRI:IO_BUS
- 31. Parameter Settings for User Entity Instance: DIG_IN:inst7|LPM_BUSTRI:IO_BUS
- 32. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
- 33. altsyncram Parameter Settings by Entity Instance
- 34. Signal Tap Logic Analyzer Settings
- 35. Post-Synthesis Netlist Statistics for Top Partition
- 36. Elapsed Time Per Partition
- 37. Connections to In-System Debugging Instance "auto_signaltap_0"
- 38. Analysis & Synthesis Messages
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. Analysis & Synthesis IP Cores Summary
+ 11. State Machine - |SCOMP_System|SCOMP:inst|state
+ 12. State Machine - |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state
+ 13. User-Specified and Inferred Latches
+ 14. Registers Removed During Synthesis
+ 15. Removed Registers Triggering Further Register Optimizations
+ 16. General Register Statistics
+ 17. Inverted Register Statistics
+ 18. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 19. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i
+ 20. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_0
+ 21. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_1
+ 22. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_2
+ 23. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_3
+ 24. Source assignments for PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_pll_dps_lcell_comb:lcell_cntsel_int_4
+ 25. Source assignments for SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated
+ 26. Source assignments for sld_signaltap:auto_signaltap_0
+ 27. Parameter Settings for User Entity Instance: PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i
+ 28. Parameter Settings for User Entity Instance: SCOMP:inst|altsyncram:altsyncram_component
+ 29. Parameter Settings for User Entity Instance: SCOMP:inst|LPM_CLSHIFT:shifter
+ 30. Parameter Settings for User Entity Instance: SCOMP:inst|LPM_BUSTRI:io_bus
+ 31. Parameter Settings for User Entity Instance: TIMER:inst4|LPM_BUSTRI:IO_BUS
+ 32. Parameter Settings for User Entity Instance: DIG_IN:inst7|LPM_BUSTRI:IO_BUS
+ 33. Parameter Settings for Inferred Entity Instance: sld_signaltap:auto_signaltap_0
+ 34. altsyncram Parameter Settings by Entity Instance
+ 35. Signal Tap Logic Analyzer Settings
+ 36. Post-Synthesis Netlist Statistics for Top Partition
+ 37. Elapsed Time Per Partition
+ 38. Connections to In-System Debugging Instance "auto_signaltap_0"
+ 39. Analysis & Synthesis Messages
 
 
 
@@ -70,7 +71,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Apr 09 16:41:53 2024       ;
+; Analysis & Synthesis Status     ; Successful - Tue Apr 09 16:59:38 2024       ;
 ; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                   ; SCOMP                                       ;
 ; Top-level Entity Name           ; SCOMP_System                                ;
@@ -80,7 +81,7 @@ https://fpgasoftware.intel.com/eula.
 ; Total pins                      ; 69                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 45,056                                      ;
-; Total DSP Blocks                ; 0                                           ;
+; Total DSP Blocks                ; 1                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -192,7 +193,13 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-8         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -214,8 +221,8 @@ https://fpgasoftware.intel.com/eula.
 ; PLL_main/PLL_main_0002.v                                           ; yes             ; User Verilog HDL File                        ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PLL_main/PLL_main_0002.v                                           ; PLL_main    ;
 ; SafePulse.vhd                                                      ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/SafePulse.vhd                                                      ;             ;
 ; PulseGenerator.vhd                                                 ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PulseGenerator.vhd                                                 ;             ;
+; PCU.vhd                                                            ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd                                                            ;             ;
 ; PUCTester.vhd                                                      ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PUCTester.vhd                                                      ;             ;
-; PCUtest.vhd                                                        ; yes             ; User VHDL File                               ; C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd                                                        ;             ;
 ; altera_pll.v                                                       ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_pll.v                                                                                                   ;             ;
 ; altera_pll_dps_lcell_comb.v                                        ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_pll_dps_lcell_comb.v                                                                                    ;             ;
 ; altera_cyclonev_pll.v                                              ; yes             ; Megafunction                                 ; c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_cyclonev_pll.v                                                                                          ;             ;
@@ -290,14 +297,14 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 643                      ;
+; Estimate of Logic utilization (ALMs needed) ; 662                      ;
 ;                                             ;                          ;
-; Combinational ALUT usage for logic          ; 875                      ;
-;     -- 7 input functions                    ; 4                        ;
-;     -- 6 input functions                    ; 183                      ;
-;     -- 5 input functions                    ; 198                      ;
-;     -- 4 input functions                    ; 126                      ;
-;     -- <=3 input functions                  ; 364                      ;
+; Combinational ALUT usage for logic          ; 902                      ;
+;     -- 7 input functions                    ; 10                       ;
+;     -- 6 input functions                    ; 188                      ;
+;     -- 5 input functions                    ; 203                      ;
+;     -- 4 input functions                    ; 133                      ;
+;     -- <=3 input functions                  ; 368                      ;
 ;                                             ;                          ;
 ; Dedicated logic registers                   ; 844                      ;
 ;                                             ;                          ;
@@ -305,15 +312,15 @@ https://fpgasoftware.intel.com/eula.
 ; Total MLAB memory bits                      ; 0                        ;
 ; Total block memory bits                     ; 45056                    ;
 ;                                             ;                          ;
-; Total DSP Blocks                            ; 0                        ;
+; Total DSP Blocks                            ; 1                        ;
 ;                                             ;                          ;
 ; Total PLLs                                  ; 1                        ;
 ;     -- Fractional PLLs                      ; 1                        ;
 ;                                             ;                          ;
 ; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
 ; Maximum fan-out                             ; 341                      ;
-; Total fan-out                               ; 7055                     ;
-; Average fan-out                             ; 3.73                     ;
+; Total fan-out                               ; 7166                     ;
+; Average fan-out                             ; 3.74                     ;
 +---------------------------------------------+--------------------------+
 
 
@@ -322,7 +329,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                      ; Entity Name                       ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+--------------+
-; |SCOMP_System                                                                                                                           ; 875 (17)            ; 844 (0)                   ; 45056             ; 0          ; 69   ; 0            ; |SCOMP_System                                                                                                                                                                                                                                                                                                                                            ; SCOMP_System                      ; work         ;
+; |SCOMP_System                                                                                                                           ; 902 (17)            ; 844 (0)                   ; 45056             ; 1          ; 69   ; 0            ; |SCOMP_System                                                                                                                                                                                                                                                                                                                                            ; SCOMP_System                      ; work         ;
 ;    |DIG_IN:inst7|                                                                                                                       ; 0 (0)               ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|DIG_IN:inst7                                                                                                                                                                                                                                                                                                                               ; DIG_IN                            ; work         ;
 ;    |DIG_OUT:inst21|                                                                                                                     ; 0 (0)               ; 10 (10)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|DIG_OUT:inst21                                                                                                                                                                                                                                                                                                                             ; DIG_OUT                           ; work         ;
 ;    |HEX_DISP_6:inst9|                                                                                                                   ; 44 (2)              ; 24 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|HEX_DISP_6:inst9                                                                                                                                                                                                                                                                                                                           ; HEX_DISP_6                        ; work         ;
@@ -333,18 +340,18 @@ https://fpgasoftware.intel.com/eula.
 ;       |HEX_DISP:inst5|                                                                                                                  ; 7 (7)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|HEX_DISP_6:inst9|HEX_DISP:inst5                                                                                                                                                                                                                                                                                                            ; HEX_DISP                          ; work         ;
 ;       |HEX_DISP:inst6|                                                                                                                  ; 7 (7)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|HEX_DISP_6:inst9|HEX_DISP:inst6                                                                                                                                                                                                                                                                                                            ; HEX_DISP                          ; work         ;
 ;    |IO_DECODER:inst3|                                                                                                                   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|IO_DECODER:inst3                                                                                                                                                                                                                                                                                                                           ; IO_DECODER                        ; work         ;
-;    |PCUtrail:inst24|                                                                                                                    ; 110 (110)           ; 37 (37)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PCUtrail:inst24                                                                                                                                                                                                                                                                                                                            ; PCUtrail                          ; work         ;
+;    |PCUNEW:inst11|                                                                                                                      ; 138 (138)           ; 37 (37)                   ; 0                 ; 1          ; 0    ; 0            ; |SCOMP_System|PCUNEW:inst11                                                                                                                                                                                                                                                                                                                              ; PCUNEW                            ; work         ;
 ;    |PLL_main:inst1|                                                                                                                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1                                                                                                                                                                                                                                                                                                                             ; PLL_main                          ; pll_main     ;
 ;       |PLL_main_0002:pll_main_inst|                                                                                                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst                                                                                                                                                                                                                                                                                                 ; PLL_main_0002                     ; PLL_main     ;
 ;          |altera_pll:altera_pll_i|                                                                                                      ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i                                                                                                                                                                                                                                                                         ; altera_pll                        ; work         ;
 ;             |altera_cyclonev_pll:cyclonev_pll|                                                                                          ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll                                                                                                                                                                                                                                        ; altera_cyclonev_pll               ; work         ;
 ;                |altera_cyclonev_pll_base:fpll_0|                                                                                        ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0                                                                                                                                                                                                        ; altera_cyclonev_pll_base          ; work         ;
 ;    |PulseGenerator:inst13|                                                                                                              ; 28 (28)             ; 32 (32)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|PulseGenerator:inst13                                                                                                                                                                                                                                                                                                                      ; PulseGenerator                    ; work         ;
-;    |SCOMP:inst|                                                                                                                         ; 251 (208)           ; 179 (179)                 ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst                                                                                                                                                                                                                                                                                                                                 ; SCOMP                             ; work         ;
+;    |SCOMP:inst|                                                                                                                         ; 250 (206)           ; 179 (179)                 ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst                                                                                                                                                                                                                                                                                                                                 ; SCOMP                             ; work         ;
 ;       |altsyncram:altsyncram_component|                                                                                                 ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                                                 ; altsyncram                        ; work         ;
 ;          |altsyncram_a724:auto_generated|                                                                                               ; 0 (0)               ; 0 (0)                     ; 32768             ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated                                                                                                                                                                                                                                                                  ; altsyncram_a724                   ; work         ;
-;       |lpm_clshift:shifter|                                                                                                             ; 43 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|lpm_clshift:shifter                                                                                                                                                                                                                                                                                                             ; lpm_clshift                       ; work         ;
-;          |lpm_clshift_fuc:auto_generated|                                                                                               ; 43 (43)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|lpm_clshift:shifter|lpm_clshift_fuc:auto_generated                                                                                                                                                                                                                                                                              ; lpm_clshift_fuc                   ; work         ;
+;       |lpm_clshift:shifter|                                                                                                             ; 44 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|lpm_clshift:shifter                                                                                                                                                                                                                                                                                                             ; lpm_clshift                       ; work         ;
+;          |lpm_clshift_fuc:auto_generated|                                                                                               ; 44 (44)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SCOMP:inst|lpm_clshift:shifter|lpm_clshift_fuc:auto_generated                                                                                                                                                                                                                                                                              ; lpm_clshift_fuc                   ; work         ;
 ;    |SafePulse:inst12|                                                                                                                   ; 28 (28)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|SafePulse:inst12                                                                                                                                                                                                                                                                                                                           ; SafePulse                         ; work         ;
 ;    |TIMER:inst4|                                                                                                                        ; 33 (33)             ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|TIMER:inst4                                                                                                                                                                                                                                                                                                                                ; TIMER                             ; work         ;
 ;    |clk_div:inst5|                                                                                                                      ; 28 (28)             ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |SCOMP_System|clk_div:inst5                                                                                                                                                                                                                                                                                                                              ; clk_div                           ; work         ;
@@ -403,6 +410,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SCOMP:inst|altsyncram:altsyncram_component|altsyncram_a724:auto_generated|ALTSYNCRAM                                                                                                                  ; AUTO ; Single Port      ; 2048         ; 16           ; --           ; --           ; 32768 ; test2.mif ;
 ; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_signaltap_implb:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_ke84:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 4096         ; 3            ; 4096         ; 3            ; 12288 ; None      ;
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+-----------+
+
+
++-----------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary  ;
++---------------------------------+-------------+
+; Statistic                       ; Number Used ;
++---------------------------------+-------------+
+; Two Independent 18x18           ; 1           ;
+; Total number of DSP blocks      ; 1           ;
+;                                 ;             ;
+; Fixed Point Unsigned Multiplier ; 1           ;
++---------------------------------+-------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -511,12 +530,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; SCOMP:inst|IIE[0..3]                                                                                                                ; Lost fanout                                 ;
 ; SCOMP:inst|int_ack[0..3]                                                                                                            ; Lost fanout                                 ;
 ; PulseGenerator:inst13|MS_LATCHEd[0]                                                                                                 ; Stuck at GND due to stuck port data_in      ;
-; PCUtrail:inst24|target[0,2,5,7..14]                                                                                                 ; Merged with PCUtrail:inst24|target[15]      ;
-; PCUtrail:inst24|target[1,3,4]                                                                                                       ; Merged with PCUtrail:inst24|target[6]       ;
+; PCUNEW:inst11|target[0,2,5,7..14]                                                                                                   ; Merged with PCUNEW:inst11|target[15]        ;
+; PCUNEW:inst11|target[1,3,4]                                                                                                         ; Merged with PCUNEW:inst11|target[6]         ;
 ; SCOMP:inst|AC_saved[0..15]                                                                                                          ; Stuck at GND due to stuck port clock_enable ;
 ; SCOMP:inst|PC_saved[0..10]                                                                                                          ; Stuck at GND due to stuck port clock_enable ;
 ; SCOMP:inst|GIE                                                                                                                      ; Lost fanout                                 ;
-; PCUtrail:inst24|target[15]                                                                                                          ; Stuck at GND due to stuck port data_in      ;
+; PCUNEW:inst11|target[15]                                                                                                            ; Stuck at GND due to stuck port data_in      ;
 ; SCOMP:inst|state.ex_nop                                                                                                             ; Lost fanout                                 ;
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state~2                ; Lost fanout                                 ;
 ; PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|dps_extra_kick:dps_extra_inst|dps_current_state~3                ; Lost fanout                                 ;
@@ -599,19 +618,19 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |SCOMP_System|SafePulse:inst12|count[15]     ;
-; 3:1                ; 99 bits   ; 198 LEs       ; 0 LEs                ; 198 LEs                ; Yes        ; |SCOMP_System|SCOMP:inst|PC_stack[1][10]     ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SCOMP_System|PCUtrail:inst24|current_deg[7] ;
-; 12:1               ; 11 bits   ; 88 LEs        ; 22 LEs               ; 66 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|PC[0]               ;
-; 13:1               ; 16 bits   ; 128 LEs       ; 112 LEs              ; 16 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|AC[10]              ;
-; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |SCOMP_System|IO_DATA[2]                     ;
-; 13:1               ; 16 bits   ; 128 LEs       ; 128 LEs              ; 0 LEs                  ; No         ; |SCOMP_System|SCOMP:inst|Add1                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |SCOMP_System|SafePulse:inst12|count[15]   ;
+; 3:1                ; 99 bits   ; 198 LEs       ; 0 LEs                ; 198 LEs                ; Yes        ; |SCOMP_System|SCOMP:inst|PC_stack[1][10]   ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SCOMP_System|PCUNEW:inst11|current_deg[1] ;
+; 12:1               ; 11 bits   ; 88 LEs        ; 22 LEs               ; 66 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|PC[0]             ;
+; 13:1               ; 16 bits   ; 128 LEs       ; 112 LEs              ; 16 LEs                 ; Yes        ; |SCOMP_System|SCOMP:inst|AC[10]            ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |SCOMP_System|IO_DATA[2]                   ;
+; 13:1               ; 16 bits   ; 128 LEs       ; 128 LEs              ; 0 LEs                  ; No         ; |SCOMP_System|SCOMP:inst|Add1              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------+
@@ -1175,24 +1194,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SCLR                    ; 19                    ;
 ;     SLD                     ; 2                     ;
 ;     plain                   ; 17                    ;
-; arriav_lcell_comb           ; 552                   ;
+; arriav_lcell_comb           ; 579                   ;
 ;     arith                   ; 145                   ;
 ;         1 data inputs       ; 128                   ;
 ;         2 data inputs       ; 1                     ;
 ;         5 data inputs       ; 16                    ;
-;     extend                  ; 3                     ;
-;         7 data inputs       ; 3                     ;
-;     normal                  ; 391                   ;
+;     extend                  ; 9                     ;
+;         7 data inputs       ; 9                     ;
+;     normal                  ; 412                   ;
 ;         0 data inputs       ; 1                     ;
 ;         1 data inputs       ; 8                     ;
-;         2 data inputs       ; 17                    ;
-;         3 data inputs       ; 53                    ;
-;         4 data inputs       ; 77                    ;
-;         5 data inputs       ; 113                   ;
-;         6 data inputs       ; 122                   ;
+;         2 data inputs       ; 23                    ;
+;         3 data inputs       ; 51                    ;
+;         4 data inputs       ; 84                    ;
+;         5 data inputs       ; 118                   ;
+;         6 data inputs       ; 127                   ;
 ;     shared                  ; 13                    ;
 ;         0 data inputs       ; 1                     ;
 ;         4 data inputs       ; 12                    ;
+; arriav_mac                  ; 1                     ;
 ; boundary_port               ; 70                    ;
 ; cyclonev_fractional_pll     ; 1                     ;
 ; cyclonev_pll_output_counter ; 1                     ;
@@ -1201,7 +1221,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block          ; 16                    ;
 ;                             ;                       ;
 ; Max LUT depth               ; 5.50                  ;
-; Average LUT depth           ; 2.60                  ;
+; Average LUT depth           ; 2.70                  ;
 +-----------------------------+-----------------------+
 
 
@@ -1210,7 +1230,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -1267,7 +1287,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Apr 09 16:41:34 2024
+    Info: Processing started: Tue Apr 09 16:59:19 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SCOMP -c SCOMP
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file hex_disp.vhd
@@ -1314,8 +1334,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file iocontr
     Info (12022): Found design unit 1: IOController-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/IOController.vhd Line: 22
     Info (12023): Found entity 1: IOController File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/IOController.vhd Line: 11
 Info (12021): Found 2 design units, including 1 entities, in source file pcu.vhd
-    Info (12022): Found design unit 1: PCU-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 25
-    Info (12023): Found entity 1: PCU File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 13
+    Info (12022): Found design unit 1: PCUNEW-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 26
+    Info (12023): Found entity 1: PCUNEW File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 14
 Info (12021): Found 2 design units, including 1 entities, in source file puctester.vhd
     Info (12022): Found design unit 1: PCUTester-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PUCTester.vhd Line: 22
     Info (12023): Found entity 1: PCUTester File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PUCTester.vhd Line: 13
@@ -1326,8 +1346,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file pcu1.vh
     Info (12022): Found design unit 1: PCUtest-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU1.vhd Line: 25
     Info (12023): Found entity 1: PCUtest File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU1.vhd Line: 13
 Info (12021): Found 2 design units, including 1 entities, in source file pcutest.vhd
-    Info (12022): Found design unit 1: PCUtrail-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 25
-    Info (12023): Found entity 1: PCUtrail File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 13
+    Info (12022): Found design unit 1: PCU-a File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 25
+    Info (12023): Found entity 1: PCU File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 13
 Warning (12019): Can't analyze file -- file Advanced_IO_CONTROLLER.vhd is missing
 Info (12021): Found 1 design units, including 1 entities, in source file peripheral.bdf
     Info (12023): Found entity 1: Peripheral
@@ -1573,8 +1593,8 @@ Warning (10034): Output port "lvdsclk" at altera_cyclonev_pll.v(642) has no driv
 Info (12131): Elaborated megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll", which is child of megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_pll.v Line: 2224
 Info (12128): Elaborating entity "altera_cyclonev_pll_base" for hierarchy "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_cyclonev_pll.v Line: 1153
 Info (12131): Elaborated megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i|altera_cyclonev_pll:cyclonev_pll|altera_cyclonev_pll_base:fpll_0", which is child of megafunction instantiation "PLL_main:inst1|PLL_main_0002:pll_main_inst|altera_pll:altera_pll_i" File: c:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altera_cyclonev_pll.v Line: 1153
-Info (12128): Elaborating entity "PCUtrail" for hierarchy "PCUtrail:inst24"
-Warning (10492): VHDL Process Statement warning at PCUtest.vhd(50): signal "POS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCUtest.vhd Line: 50
+Info (12128): Elaborating entity "PCUNEW" for hierarchy "PCUNEW:inst11"
+Warning (10492): VHDL Process Statement warning at PCU.vhd(51): signal "POS1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/PCU.vhd Line: 51
 Info (12128): Elaborating entity "PCUTester" for hierarchy "PCUTester:inst23"
 Info (12128): Elaborating entity "HEX_DISP_6" for hierarchy "HEX_DISP_6:inst9"
 Info (12128): Elaborating entity "HEX_DISP" for hierarchy "HEX_DISP_6:inst9|HEX_DISP:inst1"
@@ -1696,7 +1716,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_99c File: C:/Users/lucas/OneDrive/Documents/ClassesGT/2031 digital design lab/Project/SCOMP_Project_spring24/db/cmpr_99c.tdf Line: 23
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2024.04.09.16:41:44 Progress: Loading sldfd7bd03d/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2024.04.09.16:59:29 Progress: Loading sldfd7bd03d/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -1752,14 +1772,15 @@ Info (17049): 15 registers lost all their fanouts during netlist optimizations.
 Critical Warning (35025): Partially connected in-system debug instance "auto_signaltap_0" to 34 of its 39 required data inputs, trigger inputs, acquisition clocks, and dynamic pins.  There were 0 illegal, 0 inaccessible, and 5 missing sources or connections.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 17 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1459 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1487 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 58 output pins
-    Info (21061): Implemented 1362 logic cells
+    Info (21061): Implemented 1389 logic cells
     Info (21064): Implemented 19 RAM segments
+    Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 42 warnings
-    Info: Peak virtual memory: 4954 megabytes
-    Info: Processing ended: Tue Apr 09 16:41:53 2024
+    Info: Peak virtual memory: 4949 megabytes
+    Info: Processing ended: Tue Apr 09 16:59:38 2024
     Info: Elapsed time: 00:00:19
     Info: Total CPU time (on all processors): 00:00:16
 

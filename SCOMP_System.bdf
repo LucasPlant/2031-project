@@ -860,8 +860,8 @@ https://fpgasoftware.intel.com/eula.
 )
 (symbol
 	(rect -16 928 216 1072)
-	(text "PCUtrail" (rect 5 0 46 12)(font "Arial" ))
-	(text "inst24" (rect 8 128 37 140)(font "Arial" ))
+	(text "PCUNEW" (rect 5 0 54 12)(font "Arial" ))
+	(text "inst11" (rect 8 128 37 140)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -916,7 +916,7 @@ https://fpgasoftware.intel.com/eula.
 	)
 )
 (symbol
-	(rect -312 928 -160 1040)
+	(rect -320 928 -168 1040)
 	(text "PCUTester" (rect 5 0 59 12)(font "Arial" ))
 	(text "inst23" (rect 8 96 37 108)(font "Arial" ))
 	(port
@@ -1330,22 +1330,22 @@ https://fpgasoftware.intel.com/eula.
 	(bus)
 )
 (connector
-	(pt -160 960)
+	(pt -168 960)
 	(pt -16 960)
 	(bus)
 )
 (connector
-	(pt -160 976)
+	(pt -168 976)
 	(pt -16 976)
 	(bus)
 )
 (connector
-	(pt -160 992)
+	(pt -168 992)
 	(pt -16 992)
 	(bus)
 )
 (connector
-	(pt -160 1008)
+	(pt -168 1008)
 	(pt -16 1008)
 	(bus)
 )
@@ -1358,7 +1358,7 @@ https://fpgasoftware.intel.com/eula.
 (title_block
 	(rect 1112 1264 1480 1384)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 57 12)(font "Arial" ))(text "GaTech DDL" (rect 56 2 170 20)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 30 12)(font "Arial" ))(text "Tue Apr 09 16:41:33 2024" (rect 56 3 231 19)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 30 12)(font "Arial" ))(text "Tue Apr 09 16:59:19 2024" (rect 56 3 231 19)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 59 12)(font "Arial" ))(text "Kevin Johnson, Tom Collins" (rect 56 2 286 20)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 49 12)(font "Arial" ))(text "1.00" (rect 56 1 85 17)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 25 12)(font "Arial" ))(text "1" (rect 34 4 42 20)(font "Arial" (font_size 10))))
